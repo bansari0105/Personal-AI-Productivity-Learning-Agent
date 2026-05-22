@@ -1,0 +1,74 @@
+# Virtual environments
+env/
+venv/
+ENV/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables (keep .env.example)
+.env
+.env.local
+.env.*.local
+
+# Node/Frontend
+node_modules/
+.next/
+out/
+.vercel
+*.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+data/large_files/
+*.csv
+*.log
+
+# Models (optional - comment out if you want to track models)
+models/productivity_agent/policy.pth
+models/productivity_agent/policy.optimizer.pth
+models/productivity_agent/pytorch_variables.pth
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
